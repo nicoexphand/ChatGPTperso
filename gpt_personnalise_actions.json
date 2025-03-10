@@ -5,6 +5,12 @@
     "description": "Définition des actions pour la génération de scripts, articles et publications",
     "version": "1.0.0"
   },
+  "servers": [
+    {
+      "url": "https://raw.githubusercontent.com/nicoexphand/ChatGPTperso/main",
+      "description": "Serveur GitHub"
+    }
+  ],
   "paths": {
     "/generate-script-plan": {
       "post": {
